@@ -205,7 +205,7 @@ def main():
         results = binTo(results)
         print("\n", n, "em decimal:", results)
 
-    elif op == "666" or op == "secret":
+    elif op == "secret":
         # entradas do teclado
         n = input('Entre com o binario para conversão (digite apenas números binários): ')
         results = binTo(n)
